@@ -7,13 +7,17 @@ import { HttpClientModule } from '@angular/common/http';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ProductComponent } from './components/product/product.component';
 import { ProductListComponent } from './components/product-list/product-list.component';
+import { CartItemComponent } from './components/cart-item/cart-item.component';
+import { CartComponent } from './components/cart/cart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     ProductComponent,
-    ProductListComponent
+    ProductListComponent,
+    CartItemComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,

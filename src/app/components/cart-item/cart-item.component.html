@@ -1,0 +1,16 @@
+<div class="col">
+  <div class="card h-100">
+    <img
+      src="{{ item.thumbnail }}"
+      class="card-img-top"
+      alt="{{ item.description }}"
+    />
+    <div class="card-body">
+      <h5 class="card-title">{{ item.title }}</h5>
+      <p class="card-text">{{ item.description }}</p>
+      <span>{{ item.amount }} in your cart</span>
+      <p>{{ item.totalPrice }}€</p>
+      <a href="#" class="btn btn-primary">Remove from Cart</a>
+    </div>
+  </div>
+</div>
